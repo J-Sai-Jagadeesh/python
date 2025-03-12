@@ -1,0 +1,9 @@
+a=int(input())
+b=int(input())
+c=int(input())
+root1=0
+root2=0
+d=(b**2)-4*a*c
+root1=(-b+(d**(1/2)))/2*a
+root2=(-b-(d**(1/2)))/2*a
+print(f"Roots:({root1},{root2})")
